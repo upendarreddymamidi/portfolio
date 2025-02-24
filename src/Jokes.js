@@ -48,6 +48,8 @@ function Jokes() {
       <Row className="justify-content-md-center mt-5">
        <div>
        <h3 className="justify-content-md-center mt-5" >Random Joke Generator</h3>
+       <h6> Click on the "Get a Joke" button to get a joke.</h6>
+       <h6> Click on the "Clear" button to clear.</h6>
 <br /> 
 <br />
 <p style={{color: 'green'}}>{data}</p>
