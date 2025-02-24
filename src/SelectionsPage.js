@@ -71,7 +71,7 @@ function SelectionsPage() {
         <p class="card-text">1. A web application to help farmers in our home town in India.(Bult in  the language that farmers can understand) </p>
         <p class="card-text"> 2. An Angular application to generate a new Joke every day. </p>
         <a  href="https://ricemilllekka.tiiny.site/" class="btn btn-primary">Farmers Help</a>
-        <a style={{marginLeft:'10px'}} href="/lchart" class="btn btn-primary">Tell A Joke</a>
+        <a style={{marginLeft:'10px'}} href="/joke" class="btn btn-primary">Tell A Joke</a>
       </div>
     </div>
   </div>

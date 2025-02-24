@@ -6,6 +6,8 @@ import SelectionsPage  from './SelectionsPage';
 import ResultsPage  from './ResultsPage';
 import BarChart from './bar-chart';
 import LineChart from './line-chart';
+import Jokes from './Jokes';
+
 
 function Router(props) {
   return (
@@ -21,6 +23,7 @@ function Router(props) {
             <Route path="/chart" component={BarChart} />
 
             <Route path= "/lchart" component={LineChart} />
+            <Route path= "/joke" component={Jokes} />
             
   
           </Switch>
