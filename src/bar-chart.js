@@ -37,7 +37,7 @@ const [data, setData] = useState([
      .attr("width", 67)
      .attr("height", (d) => height - yScale((d.value)))
      .attr("transform", "translate(30, 10)") 
-     .attr("fill", "red");
+     .attr("fill", "steelblue");
 
    // Create x-axis
    const xAxis = d3.axisBottom(xScale);

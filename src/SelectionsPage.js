@@ -18,11 +18,25 @@ function SelectionsPage() {
   return (
     <Container>
 <div class="about-section">
-  <h1>About Us Page</h1>
-  <p>Some text about who we are and what we do.</p>
-  <p>Resize the browser window to see that this page is responsive by the way.</p>
+  <h1>My Portfolio</h1>
+  <p>Working as a Team lead at guidehouse.</p>
+  <p>
+  <span  style={{background:'white', color: 'black'}} class="badge badge-secondary">React</span>
+  <span  style={{background:'white', color: 'black', marginLeft: '10px'}} class="badge badge-secondary">Angular 10+</span>
+  <span  style={{background:'white', color: 'black' , marginLeft: '10px'}} class="badge badge-secondary">CSS</span>
+  <span  style={{background:'white', color: 'black' , marginLeft: '10px'}} class="badge badge-secondary">Bootstrap</span>
+  <span  style={{background:'white', color: 'black' , marginLeft: '10px' }} class="badge badge-secondary">JavaScript</span>
+  <span  style={{background:'white', color: 'black' , marginLeft: '10px' }} class="badge badge-secondary">JavaScript</span>
+  <span  style={{background:'white', color: 'black' , marginLeft: '10px' }} class="badge badge-secondary">D3</span>
+  <span  style={{background:'white', color: 'black' , marginLeft: '10px' }} class="badge badge-secondary">Chart.JS</span>
+  <span  style={{background:'white', color: 'black' , marginLeft: '10px' }} class="badge badge-secondary">Java</span>
+  <span  style={{background:'white', color: 'black' , marginLeft: '10px' }} class="badge badge-secondary">NodeJS</span>
+  <span  style={{background:'white', color: 'black' , marginLeft: '10px' }} class="badge badge-secondary">HTML</span>
+
+  </p>
 </div>
 
+<br />
 <br />
 <div class="row">
   <div class="col-sm-4">
@@ -41,7 +55,7 @@ function SelectionsPage() {
     <div class="card">
       <div class="card-body">
       <img src={DataVis} style={{width: '200px'}} />
-        <h5 class="card-title">Visualization Projects</h5>
+        <h5 class="card-title">Data Visualization Projects</h5>
         <p class="card-text">I have built some sample Barchar, Line Chart using D3.js </p>
         <p class="card-text">Plans to improve these making dynamic with user's data input</p>
         <a  href="/chart" class="btn btn-primary">Bar Chart</a>

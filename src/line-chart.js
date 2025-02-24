@@ -62,7 +62,15 @@ const LineChart = ({width = 600, height = 400, margin = { top: 20, right: 30, bo
       .attr("d", line);
   }, [formattedData]);
 
-  return <svg ref={svgRef} width={width} height={height} />;
+  return (
+    <div style={{alignContent:'center'}}>
+      <h3>Line Chart</h3>
+      <h4>Built Using D3</h4>
+<br />
+  <svg ref={svgRef} width={width} height={height} />
+    </div>
+
+  )
 };
 
 export default LineChart;
