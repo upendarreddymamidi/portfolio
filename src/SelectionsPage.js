@@ -19,7 +19,7 @@ function SelectionsPage() {
     <Container>
 <div class="about-section">
   <h1>My Portfolio</h1>
-  <p>Working as a Team lead at guidehouse.</p>
+  <p>Working as a Senior Software Developer at guidehouse.</p>
   <p>
   <span  style={{background:'white', color: 'black'}} class="badge badge-secondary">React</span>
   <span  style={{background:'white', color: 'black', marginLeft: '10px'}} class="badge badge-secondary">Angular 10+</span>
