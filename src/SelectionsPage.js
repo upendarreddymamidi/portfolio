@@ -67,7 +67,7 @@ function SelectionsPage() {
       <div class="card-body">
       <img src={webapp} style={{width: '150px'}} />
         <h5 class="card-title">Web Applications </h5>
-        <p class="card-text">1. A web application to help farmers in our home town in India.(Bult in  the language that farmers can understand) </p>
+        <p class="card-text">1. A web application to help farmers in our home town in India.(Built in  the language that farmers can understand) </p>
         <p class="card-text"> 2. An Angular application to generate a new Joke every day. </p>
         <a  href="https://ricemilllekka.tiiny.site/" class="btn btn-primary">Farmers Help</a>
         <a style={{marginLeft:'10px'}} href="/joke" class="btn btn-primary">Tell A Joke</a>
