@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Achieve from './pa.png'
 import DataVis from './dataVis.png'
 import webapp from './webapp.png'
+import Ghlogo from './GHLogoWhite.svg'
 import './SelectionPage.css';
 
 function SelectionsPage() {
@@ -19,8 +20,9 @@ function SelectionsPage() {
     <Container>
 <div class="about-section">
   <h1>My Portfolio</h1>
-  <p>Working as a Senior Software Developer at guidehouse.</p>
+  <p>Working as a Senior Software Developer at <img src={Ghlogo} style={{width: '100px', marginBottom: '8px'}} /></p>
   <p>
+    <h6>Key Skills</h6>
   <span  style={{background:'white', color: 'black'}} class="badge badge-secondary">React</span>
   <span  style={{background:'white', color: 'black', marginLeft: '10px'}} class="badge badge-secondary">Angular 10+</span>
   <span  style={{background:'white', color: 'black' , marginLeft: '10px'}} class="badge badge-secondary">CSS</span>
