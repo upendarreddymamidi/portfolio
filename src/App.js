@@ -1,16 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Router from './Router';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-         Upendar Portfolio
-        </p>
-      </header>
-    </div>
-  ); 
+    <Router />
+  );
 }
 
 export default App;
