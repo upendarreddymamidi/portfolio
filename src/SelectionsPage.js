@@ -26,7 +26,6 @@ function SelectionsPage() {
   <span  style={{background:'white', color: 'black' , marginLeft: '10px'}} class="badge badge-secondary">CSS</span>
   <span  style={{background:'white', color: 'black' , marginLeft: '10px'}} class="badge badge-secondary">Bootstrap</span>
   <span  style={{background:'white', color: 'black' , marginLeft: '10px' }} class="badge badge-secondary">JavaScript</span>
-  <span  style={{background:'white', color: 'black' , marginLeft: '10px' }} class="badge badge-secondary">JavaScript</span>
   <span  style={{background:'white', color: 'black' , marginLeft: '10px' }} class="badge badge-secondary">D3</span>
   <span  style={{background:'white', color: 'black' , marginLeft: '10px' }} class="badge badge-secondary">Chart.JS</span>
   <span  style={{background:'white', color: 'black' , marginLeft: '10px' }} class="badge badge-secondary">Java</span>
